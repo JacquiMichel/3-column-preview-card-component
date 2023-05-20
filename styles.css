@@ -1,0 +1,75 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  height: auto;
+  max-width: 750px;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
+  padding: 15px;
+}
+
+img {
+  padding: 15px;
+}
+
+p {
+  color: hsl(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  padding-bottom: 40px;
+}
+
+button {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  font-size: 15px;
+  background: hsl(0, 0%, 95%);
+  padding: 10px 25px 10px 25px;
+  border: solid #f2f2f2 2px;
+  mix-blend-mode: screen;
+  
+}
+
+button:hover {
+  background: transparent;
+  color: hsl(0, 0%, 95%);
+}
+
+.row {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.first-col {
+  background-color: hsl(31, 77%, 52%);
+  padding: 30px;
+}
+
+.second-col {
+  background-color: hsl(184, 100%, 22%);
+  padding: 30px;
+}
+
+.third-col {
+  background-color: hsl(179, 100%, 13%);
+  padding: 30px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
